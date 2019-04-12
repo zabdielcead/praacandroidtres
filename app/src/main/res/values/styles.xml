@@ -8,4 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--cambiamos el tema de nuestra aplicacion-->
+
+
 </resources>

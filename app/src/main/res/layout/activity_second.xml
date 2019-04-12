@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SecondActivity">
+
+    <Button
+            android:id="@+id/btnCentro"
+            android:layout_width="wrap_content"
+            android:text="Centro"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnArriba"
+            android:layout_above="@+id/btnCentro"
+            android:layout_alignLeft="@+id/btnCentro"
+            android:text="arriba"/>
+
+    <Button
+            android:id="@+id/abajo"
+            android:text="Abajo"
+            android:layout_alignLeft="@+id/btnCentro"
+            android:layout_alignStart="@+id/btnCentro"
+            android:layout_below="@+id/btnCentro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnIzquierda"
+            android:layout_alignBaseline="@+id/btnCentro"
+            android:layout_toLeftOf="@+id/btnCentro"
+            android:text="Izquierda"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDerecha"
+            android:layout_below="@+id/btnArriba"
+            android:layout_toRightOf="@+id/btnCentro"
+            android:text="Derecha"
+            />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sup IZQ"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sup Der"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inf. Izq"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" inf. der"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"/>
+
+
+</RelativeLayout>
